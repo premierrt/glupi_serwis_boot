@@ -1,0 +1,3 @@
+-co robi:
+1. jest za zuulem
+2. korzysta z config_server
