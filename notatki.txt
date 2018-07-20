@@ -1,3 +1,12 @@
+-dodac eureke 
+
+https://codecouple.pl/2017/06/23/16-spring-boot-cloud-config/
+
+W tym pliku ustawiamy nazwę aplikacji spring.application.name=config-client. Nazwa ta powinna być odpowiednia dla nazwy pliku properties który znajduje się w repozytorium (w naszym przypadku jest to config-client). Kolejnym elementem jest ustawienie adresu serwera konfiguracji, spring.cloud.config.uri=http://localhost:8888. Wartość http://localhost:8888 jest wartością domyślną, więc tak naprawdę wpis ten jest nadmiarowy (zostawiam dla czytelności).
+http://localhost:8888/glupi_kontroler/default
+
+https://spring.io/guides/gs/centralized-configuration/
+
 -co robi:
 1. jest za zuulem
 2. korzysta z config_server
