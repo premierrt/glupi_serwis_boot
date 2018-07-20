@@ -1,3 +1,6 @@
 -co robi:
 1. jest za zuulem
 2. korzysta z config_server
+
+
+"Instancje serwisów po uruchomieniu rejestrują się discovery service. Na tej podstawie w sposób dynamiczny odbywa się routowanie ruchu przez front service. "
