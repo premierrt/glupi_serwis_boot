@@ -1,4 +1,12 @@
+--dodac ms domenowy bedacy klientem dla tego klienta
+--narysowac arch.
+
 -dodac eureke 
+-dodac sleuth
+http://www.baeldung.com/spring-cloud-sleuth-single-application
+https://codecouple.pl/2017/07/21/17-spring-boot-distributed-tracing-zipkin-i-sleuth/
+
+--dodac feintclient
 
 https://codecouple.pl/2017/06/23/16-spring-boot-cloud-config/
 
@@ -13,3 +21,7 @@ https://spring.io/guides/gs/centralized-configuration/
 
 
 "Instancje serwisów po uruchomieniu rejestrują się discovery service. Na tej podstawie w sposób dynamiczny odbywa się routowanie ruchu przez front service. "
+
+--dodaje hysterix
+https://codecouple.pl/2017/11/24/23-spring-boot-hystrix/
+https://spring.io/guides/gs/circuit-breaker/
