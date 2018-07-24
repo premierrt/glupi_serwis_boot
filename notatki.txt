@@ -6,6 +6,11 @@
 http://www.baeldung.com/spring-cloud-sleuth-single-application
 https://codecouple.pl/2017/07/21/17-spring-boot-distributed-tracing-zipkin-i-sleuth/
 
+---!
+Sleuth also provides tracing across multiple applications. 
+By creating RestTemplate as a bean, sleuth will automatically add an interceptor to the RestTemplate. 
+The interceptor will add tracing headers to outbound requests. 
+
 --dodac feintclient
 
 https://codecouple.pl/2017/06/23/16-spring-boot-cloud-config/
